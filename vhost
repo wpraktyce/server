@@ -1,0 +1,17 @@
+<VirtualHost *:80>
+    ServerName php.local
+
+    DocumentRoot /var/www/public
+    <Directory />
+        Options FollowSymLinks
+            AllowOverride All
+    </Directory>
+
+    <Directory /var/www/public/>
+        Options Indexes FollowSymLinks MultiViews
+            AllowOverride All
+        Order allow,deny
+        allow from all
+    </Directory>
+
+</VirtualHost>

@@ -1,0 +1,3 @@
+<?php
+
+echo 'Witaj świecie!';
