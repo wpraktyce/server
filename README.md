@@ -17,7 +17,8 @@ W sesji temrinala używaj następującyh komend w katalogu głównym repozytoriu
 - `vagrant ssh` - w celu zalogowania na terminal servera
 
 ## Używanie
-Katalog publiczny servera: `www/public`. Powinien zawierać wszystkie pliki do których porzebny jest dostęp
+- Dostęp przez przeglądarkę `http://172.11.1.111/`
+- Katalog publiczny servera: `www/public`. Powinien zawierać wszystkie pliki do których porzebny jest dostęp
 
 ## Credits
 
