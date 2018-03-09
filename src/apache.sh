@@ -6,7 +6,7 @@ function install_apache()
 
     #install apache2, PHP and then MySQL
     apt-get -y install apache2
-    apt-get -y install php5 # php5-mcrypt php5-xdebug
+    apt-get -y install php5 php5-mysql # php5-mcrypt php5-xdebug
 
     # Enable: ModRewrite, mcrypt
     a2enmod rewrite

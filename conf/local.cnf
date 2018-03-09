@@ -1,0 +1,16 @@
+[client]
+default-character-set=utf8
+
+[mysql]
+default-character-set=utf8
+
+
+[mysqld]
+collation-server = utf8_unicode_ci
+init-connect='SET NAMES utf8'
+character-set-server = utf8
+default-storage-engine=InnoDB
+innodb_file_per_table=ON
+innodb_file_format=barracuda
+innodb_strict_mode=ON
+innodb_buffer_pool_size = 256M

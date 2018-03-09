@@ -21,4 +21,6 @@ base_setup
 
 install_apache
 install_composer
+install_mysql
+mysql_add_user user pass
 install_tools
