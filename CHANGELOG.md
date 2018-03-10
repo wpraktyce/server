@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [2.0.0] - 2018-03-10
 ### Added
 - PHP Error handling configuration
 - *MySQL* server and database
@@ -11,8 +11,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Provisioning script to function based one (`src`) to improve flexibility
 - Default `vhost` moved to `conf` folder
 
-## [0.1.0] - 2016-09-11
+## [1.0.0] - 2016-09-11
 ### Added
 - Base setup
 
-[0.1.0]: https://github.com/wpraktyce/server/releases/tag/1.0.0
+[2.0.0]: https://github.com/wpraktyce/server/compare/1.0.0...2.0.0
+[1.0.0]: https://github.com/wpraktyce/server/releases/tag/1.0.0
